@@ -1,6 +1,6 @@
 
 
-tempsRestan('06/08/2017 03:1 PM', 'countdown_dashboard');
+tempsRestan('06/08/2017 03:1 PM', 'countdown');
 
 function tempsRestan(deadline, id) {
 
@@ -39,10 +39,10 @@ function tempsRestan(deadline, id) {
         var seconds = Math.floor((distance % minute) / second);
 
         //ajout à la div jour/heure/minute/secondes le += ajout àprès
-        document.getElementById("jours").innerHTML = days;
-        document.getElementById("heure").innerHTML = hours;
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
         document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconde").innerHTML = seconds;
+        document.getElementById("seconds").innerHTML = seconds;
     }
 
     timer = setInterval(showRemaining, 1000);
