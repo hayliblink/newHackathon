@@ -5,6 +5,13 @@
 	
 
 }
+
+img{
+   position: fixed;
+   right: 45px;
+   top: 45px;
+   width: 30%
+ }
 @media only screen and (min-width: 980px) and (max-width: 1199px){
 
 
@@ -26,7 +33,7 @@
 
 	
 	#countdown{  top: 40%;
-    left: 5%;}
+    left: 15%;}
 
 	ul.countdown span 
   {
@@ -42,8 +49,7 @@
 @media only screen and (min-width: 600px) and (max-width: 767px){
 
 	.container{ width: 500px; }	
-		#countdown{  top: 40%;
-    left: 2%;}
+
 	ul.countdown span 
   {
     font-size: 80px;
