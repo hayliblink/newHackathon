@@ -14,6 +14,43 @@ button:focus{ outline: none; }
     left: 50%;
 }
 
+#countdown
+  {
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    color: white;
+  }
+  #countdown small
+  {
+    font-size: 150px;
+    font-weight: bold;
+  }
+ul.countdown
+  {
+    margin: 0;
+    padding: 0;
+  }
+ul.countdown span 
+  {
+    font-size: 80px;
+    text-align: center;
+    display: inline-block;
+  }
+ul.countdown li
+  {
+  border-right: 1px solid white;
+  font-weight: bold;
+  font-size: 18px;
+  display:inline-block;
+  padding: 0px 40px 0px 40px;
+  }
+ul.countdown li:last-child
+  {
+    border-right: none;
+  }
+
 .main-wrapper{ 
 	position: relative;
 	width: 100%;
@@ -21,28 +58,13 @@ button:focus{ outline: none; }
 	overflow: hidden;
 }
 .bg-wrapper{ background-size: cover; background-position: center center; }
-.overlay{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+
 .container{ 
 	width: 1200px; 
 	text-align: center; 
 	position: relative;
 }
-.page-wrapper{ width: 100%; }
-.page-wrapper.home-page .ajax-page-wrp{ display: none !important; }
-.page-wrapper #home{ display: none; }
-.page-wrapper.home-page #home{ display: table-cell; }
-.front-display{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-}
+
 
 .navigation-wrp{ margin-bottom: 0; display: inline-block; }
 .navigation-wrp .nav-box{ 
@@ -97,67 +119,4 @@ button:focus{ outline: none; }
     z-index: 99999;
 }
 .navigation-wrp.mob .nav-box{ display: block; margin: 12px 0; }
-
-
-#home{ position: relative; z-index: 0; }
-
-#countdown_dashboard{ 
-	min-height: 110px; 
-	text-align: center; 
-	width: 100%;
-	padding: 30px 0 21px 0;
-}
-#countdown_dashboard .inner-dashboard{ display: inline-block; }
-.dash {
-    float: left;
-    position: relative;
-    text-align: center;
-    min-width: 114px;
-    min-height: 100px;
-    border-right: 1px solid transparent;
-
-    padding: 6px 20px 34px 20px;
-}
-
-#countdown_dashboard .inner-dashboard .dash:last-child{ 
-	border-right: none; 
-	border-image: none; 
-	padding-top: 9px;
-}
-.dash .inner-dash{ display: inline-block; }
-.dash .digit {
-    font-size: 60px;
-    float: left;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    min-width: 32px;
-    line-height: 1;
-    overflow: hidden;
-    font-weight: 300;
-}
-.dash_title {
-    position: absolute;
-    width: 100%;
-    display: block;
-    bottom: -13;
-    left: 0;
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1;
-    font-weight: 300;
-}
-#countdown_dashboard .dash.days_dash{
-	float: inherit;
-	border-image: none;
-}
-.dash.days_dash .dash_title{ font-size: 30px; }
-#countdown_dashboard .time-wrp{ margin-top: 30px; }
-.dash.days_dash .digit{
-	font-size: 140px;
-	min-width: 64px;
-}
-
-
 
