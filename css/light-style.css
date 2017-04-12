@@ -1,0 +1,11 @@
+
+.navigation-wrp .nav-box a{ color: white; }
+.navigation-wrp .nav-box a:hover,
+.navigation-wrp .nav-box a.active{
+	border-color: white;
+}
+
+.dash .digit{ color: white; }
+.dash_title{ color: white; }
+
+
