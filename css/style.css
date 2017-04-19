@@ -14,17 +14,26 @@ button:focus{ outline: none; }
     left: 50%;
 }
 
+html{
+  height: 100%;
+  }
+  body{
+  overflow: hidden;
+  min-height: 100%;
+
+}
+
 #countdown
   {
     text-align: center;
     position: fixed;
     top: 40%;
-    left: 26%;
+    left: 22%;
     color: white;
   }
   #countdown small
   {
-    font-size: 150px;
+    font-size: 50px;
     font-weight: bold;
   }
 ul.countdown
@@ -34,7 +43,7 @@ ul.countdown
   }
 ul.countdown span 
   {
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     display: inline-block;
   }
@@ -120,3 +129,45 @@ ul.countdown li:last-child
 }
 .navigation-wrp.mob .nav-box{ display: block; margin: 12px 0; }
 
+.image{
+    width: 100px;
+    margin-top: 6%;
+    margin-right: 43%;
+    z-index: 1;
+}
+
+.logowild{
+    width: 300px;
+    margin-top: 3%;
+    margin-right: 55%;
+}
+
+.logotoulouse{
+    width: 300px;
+    margin-top: 5%;
+    margin-right: 15%;
+}    
+
+
+.textpresentation {
+            background: linear-gradient(to bottom, rgb(149, 27, 128), rgb(203, 38, 132)) ;
+            color: white;
+            font-family: 'roboto';
+            font-size: 130%;
+            text-align: center;
+            margin-top: 20%;
+}
+    #map {
+      height: 400px;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .textlieu {
+      color: rgb(149, 27, 128);
+      font-family: 'roboto';
+      font-size: 130%;
+      text-align: center;
+      margin-bottom: 10%;
+      margin-top: 5%;
+    }
