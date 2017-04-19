@@ -18,7 +18,7 @@ html{
   height: 100%;
   }
   body{
-  overflow: hidden;
+  overflow-x: hidden;
   min-height: 100%;
 
 }
@@ -156,6 +156,7 @@ ul.countdown li:last-child
             font-size: 130%;
             text-align: center;
             margin-top: 20%;
+            margin-bottom: 10%;
 }
     #map {
       height: 400px;
