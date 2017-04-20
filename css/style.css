@@ -14,26 +14,17 @@ button:focus{ outline: none; }
     left: 50%;
 }
 
-html{
-  height: 100%;
-  }
-  body{
-  overflow-x: hidden;
-  min-height: 100%;
-
-}
-
 #countdown
   {
     text-align: center;
     position: fixed;
     top: 40%;
-    left: 22%;
+    left: 10%;
     color: white;
   }
   #countdown small
   {
-    font-size: 50px;
+    font-size: 550%;
     font-weight: bold;
   }
 ul.countdown
@@ -43,7 +34,7 @@ ul.countdown
   }
 ul.countdown span 
   {
-    font-size: 50px;
+    font-size: 550%;
     text-align: center;
     display: inline-block;
   }
@@ -51,7 +42,7 @@ ul.countdown li
   {
   border-right: 1px solid white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
   display:inline-block;
   padding: 0px 40px 0px 40px;
   }

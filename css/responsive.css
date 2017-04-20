@@ -1,18 +1,40 @@
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1455px){
+    .container{ width: 1100px; }
+    img{position: fixed; right: 45px; top: 45px; width: 30%;}
+        #countdown{ top: 40%; left: 10%;}
+         .image{
+    width: 100px;
+    margin-top: 4%;
+    margin-right: 45%;
+    z-index: 1;
+}
+
+.logowild{
+    width: 200px;
+    margin-top: 3%;
+    margin-right: 55%;
+}
+
+.logotoulouse{
+    width: 200px;
+    margin-top: 3%;
+    margin-right: 30%;
+}
+
+}
+@media only screen and (min-width: 1200px)and (max-width: 1454px){
 
 	  .container{ width: 1100px; }
     img{position: fixed; right: 45px; top: 45px; width: 30%;}
-    
-    
-
+    #countdown{ top: 40%; left: 10%;}
+    ul.countdown span{font-size: 100px;}
+  #countdown small{font-size: 100px; font-weight: bold;}
     
 }   
   
 @media only screen and (min-width: 980px) and (max-width: 1199px){
-
-
-	.container{ width: 880px; }
+    .container{ width: 880px; }
 	#countdown{ top: 40%; left: 20%;}
 	ul.countdown span{font-size: 40px;}
   #countdown small{font-size: 40px; font-weight: bold;}
