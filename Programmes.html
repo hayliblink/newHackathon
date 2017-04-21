@@ -6,74 +6,163 @@
     <meta charset="utf-8">
     <title>Programmes</title>
 
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.3.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/Prog.css">
+
+    <style>
+        body {
+            background-color: rgb(149, 27, 128);
+            color: white;
+            font-family: 'roboto';
+            Font-Weight: Bold;
+            text-align: center;
+        }
+        
+        .titreprog {
+            font-size: 1300%;
+            margin-top: 15%;
+        }
+        
+        p {
+            font-size: 300%;
+            margin-top: 6%;
+        }
+        
+        #plus {
+            width: 5%;
+            position: fixed;
+            left: 47%;
+
+        }
+     
+        
+        #MonProg {
+            position: fixed;
+            top: 100%;
+            transition: top 1s;
+        }
+    </style>
 
 </head>
 
-<body>
+<body style="overflow: hidden;">
 
-    <div style="position: fixed; background: black;z-index:9999999999;"><a href="index.html">retour</a></div>
-    <div class="nc-section--body align-c">
-        <div class="flex-row popgallery-widget">
-            <div class="flex-col-md-6 flex-col-sm-6">
-                <div class="hover-box1">
-                    <img src="images/800x600_01.jpg">
-                </div>
-            </div>
-            <div class="flex-col-md-6 flex-col-sm-6">
-                <div class="hover-box1">
-                    <div class="overlay flex-cc typo-light">
-                        <div class="content mr-30 z2">
-                            <h1>Jeudi 8 juin</h1>
-                            <h3 class="title  bold-1 f-2">
-                                8h30 - Accueil et Lancement du Hackathon
-                            </h3>
-                            <h3 class="title  bold-1 f-2">
-                                9H00 - Démarrage des projets
-                            </h3>
-                            <h1 class="title  bold-1 f-2">
-                                23H00 - Interruption des projets
-                            </h1>
-                        </div>
-                        <b class="full-wh bg-dark1 op-00 z1"></b>
-                    </div>
-                    <img src="images/800x600_02.jpg">
-                </div>
-            </div>
-            <div class="flex-col-md-6 flex-col-sm-6">
-                <div class="hover-box1">
-                    <div class="overlay flex-cc typo-light">
-                        <div class="content mr-30 z2">
-                            <h1>Vendredi 9 juin</h1>
-                            <h3 class="title  bold-1 f-2">
-                                8H30 - Reprise des projets
-                            </h3>
-                            <h3 class="title  bold-1 f-2">
-                                15H - Répétition de la restitution des projets
-                            </h3>
-                            <h3 class="title  bold-1 f-2">
-                                17H - Présentation des équipes devant un Jury officiel
-                            </h3>
-                             <h3 class="title  bold-1 f-2">
-                                18H30 - Délibération du Jury et attribution des Prix
-                            </h3>
-                              <h3 class="title  bold-1 f-2">
-                                  19H - Verre de l’amitié
-                            </h3>
 
-                        </div>
-                        <b class="full-wh bg-dark1 op-00 z1"></b>
+
+    <div class="mobile-icon vhm logo" style="color: black;">
+        <i class="fa fa-bars vhm-item"></i>
+    </div>
+    <nav class="nav-outter-wrp">
+        <ul class="navigation-wrp mob">
+            <li class="nav-box">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-box">
+                <a href="Programme.html" class="active">Programme</a>
+            </li>
+            <li class="nav-box">
+                <a href="Lieu.html">Lieu</a>
+            </li>
+            <li class="nav-box">
+            </li>
+            <li class="nav-box">
+            </li>
+            <li class="nav-box">
+            </li>
+        </ul>
+    </nav>
+
+    <div class="programme">
+        <div class="titreprog"> PROGRAMME </div>
+        <div id="button">
+            <p> EN SAVOIR </p>
+            <img src="images/plus.png" id="plus"></img>
+        </div>
+    </div>
+    <div id="MonProg">
+        <div id="retour" style="position: fixed; background: black;z-index:9999999999;"><p>retour</p></div>
+        <div class="nc-section--body align-c">
+            <div class="flex-row popgallery-widget">
+                <div class="flex-col-md-6 flex-col-sm-6">
+                    <div class="hover-box1">
+                        <img src="http://lorempixel.com/800/400">
                     </div>
-                    <img src="images/800x600_03.jpg">
                 </div>
-            </div>
-            <div class="flex-col-md-6 flex-col-sm-6">
-                <div class="hover-box1">
-                    <img src="images/800x600_04.jpg">
+                <div class="flex-col-md-6 flex-col-sm-6">
+                    <div class="hover-box1">
+                        <div class="overlay flex-cc typo-light">
+                            <div class="content mr-30 z2">
+                                <h1>Jeudi 8 juin</h1>
+                                <h3 class="title  bold-1 f-2">
+                                    8h30 - Accueil et Lancement du Hackathon
+                                </h3>
+                                <h3 class="title  bold-1 f-2">
+                                    9H00 - Démarrage des projets
+                                </h3>
+                                <h1 class="title  bold-1 f-2">
+                                    23H00 - Interruption des projets
+                                </h1>
+                            </div>
+                            <b class="full-wh bg-dark1 op-00 z1"></b>
+                        </div>
+                        <img src="images/800x600_02.jpg">
+                    </div>
+                </div>
+                <div class="flex-col-md-6 flex-col-sm-6">
+                    <div class="hover-box1">
+                        <div class="overlay flex-cc typo-light">
+                            <div class="content mr-30 z2">
+                                <h1>Vendredi 9 juin</h1>
+                                <h3 class="title  bold-1 f-2">
+                                    8H30 - Reprise des projets
+                                </h3>
+                                <h3 class="title  bold-1 f-2">
+                                    15H - Répétition de la restitution des projets
+                                </h3>
+                                <h3 class="title  bold-1 f-2">
+                                    17H - Présentation des équipes devant un Jury officiel
+                                </h3>
+                                <h3 class="title  bold-1 f-2">
+                                    18H30 - Délibération du Jury et attribution des Prix
+                                </h3>
+                                <h3 class="title  bold-1 f-2">
+                                    19H - Verre de l’amitié
+                                </h3>
+
+                            </div>
+                            <b class="full-wh bg-dark1 op-00 z1"></b>
+                        </div>
+                        <img src="images/800x600_03.jpg">
+                    </div>
+                </div>
+                <div class="flex-col-md-6 flex-col-sm-6">
+                    <div class="hover-box1">
+                        <img src="http://lorempixel.com/800/450">
+                    </div>
                 </div>
             </div>
         </div>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/common.js"></script>
+
+        <script>
+            var btn = document.getElementById("button");
+            var Prog = document.getElementById("MonProg");
+            var retour = document.getElementById("retour");
+            Prog.style.top = "100%";
+            btn.addEventListener("click", AffProg);
+            retour.addEventListener("click", Retour);
+
+            function Retour(){
+                Prog.style.top = "100%";
+            }
+
+            function AffProg(){
+                Prog.style.top = "0%";
+            }
+        </script>
 </body>
 
 </html>
