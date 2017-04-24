@@ -1,0 +1,74 @@
+
+
+.container-fluid{
+    overflow: hidden;
+    padding: 0;
+    height: 100%;
+}
+
+.haut{
+    height: 50vh;
+    background-color: rgb(149,27,128);
+}
+
+.title{
+    font-family: 'Roboto'sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.txtgauche{
+    color: white;
+    align: left;
+    font-family: 'Roboto'sans-serif;
+    margin-top: 3%;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.txtdroite{
+    color: white;
+    float: right;
+    font-family: 'Roboto'sans-serif;
+    margin-top: 3%;
+    margin-right: 20%;
+    display: inline;
+}
+
+h2{
+color: white;
+font-size: 18px;
+}
+
+p{
+    color: white;
+    font-family: 'Roboto'sans-serif;
+    font-size: 16px;
+}
+
+
+
+.basgauche{
+    height: 55vh;
+    background-color: rgb(247,122,38);
+
+}
+
+.basdroite{
+    height: 55vh;
+    background-color: whitesmoke;
+}
+
+img.twit{
+    width: 30%;
+    display: block;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tweet{
+    height: 55vh;
+    overflow-y: scroll;
+}
