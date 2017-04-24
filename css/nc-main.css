@@ -240,79 +240,6 @@ hr.hr-1 {
 	}
 }
 
-
-/**
-*****************************************************************
-*	OWL-CAROUSEL
-*****************************************************************
-*/
-/*----------  OWL-CANTROL  ----------*/
-.ctrl-2 .owl-controls,
-.ctrl-1 .owl-controls {
-	padding: 1px;
-	height: auto;
-}
-.ctrl-2 .owl-nav,
-.ctrl-1 .owl-nav {
-	position: absolute;
-	top: 50%;
-	height: 0px;
-	left: 0px;
-	right: 0px;
-	z-index: 99;
-}
-.ctrl-2 .owl-nav > div,
-.ctrl-1 .owl-nav > div {
-	position: absolute;
-	top: -40px;
-	height: 80px;
-	width: 80px;
-	left: 0px;
-	background-color: rgba(0,0,0,0.3);
-	color: #fff;
-	line-height: 80px;
-	text-align: center;
-	font-size: 28px;
-	opacity: 0;
-}
-.ctrl-2 .owl-nav > .owl-next,
-.ctrl-1 .owl-nav > .owl-next{
-	right: 0px;
-	left: auto;
-}
-.ctrl-2:hover .owl-nav > div,
-.ctrl-1:hover .owl-nav > div {
-	opacity: 1;
-}
-.ctrl-2 .owl-nav > div {
-	color: #3b4c5c;
-	background-color: transparent;
-}
-.ctrl-2 .owl-nav > div:hover {
-	color: #fff;
-	background-color: #3b4c5c;
-}
-.ctrl-2 .owl-nav > .owl-next { right: -100px; }
-.ctrl-2 .owl-nav > .owl-prev { left: -100px; }
-
-
-/*----------  CAROUSEL DOTS  ----------*/
-.owl-dots {
-	text-align: center;
-	position: relative;
-	margin-top: 30px;
-}
-.owl-dots > .owl-dot { display: inline-block; }
-.owl-dots span {
-	border: 3px solid rgba(0,0,0,0.2);
-	display: block;
-	width: 20px; height: 20px;
-	border-radius: 20px;
-	margin: 0 4px;
-}
-.owl-dots .active span { background-color: rgba(0,0,0,0.2); }
-
-
 /**
 *******************************************************************
 * PAGE-LOADER
@@ -324,11 +251,10 @@ hr.hr-1 {
 	height: 100%;
 	background-color: #000;
 	z-index: 9999;
-	overflow: hidden;
 }
 
 /*----------  PAGE-LOADER-1  ----------*/
-.page-loader-wrapper-1 { overflow: hidden; background-color: #fff; }
+.page-loader-wrapper-1 {  background-color: #fff; }
 .page-loader-wrapper-1 .loader {
 	width: 40px;
 	height: 40px;
@@ -396,63 +322,6 @@ hr.hr-1 {
 
 /**
 *******************************************************************
-* TOOLTIP
-*******************************************************************
-*/
-
-/*----------  COMMON  ----------*/
-.nc-tooltip-wrp .nc-tooltip {
-	background: #111;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 5px 15px;
-	display: block;
-	position: absolute;
-	top: 50%;
-	margin-top: -15px;
-	opacity: 0;
-	pointer-events: none;
-	width: auto;
-	text-align: center;
-	border-radius: 3px;
-	-webkit-transition: all .25s ease-out;
-	 -moz-transition: all .25s ease-out;
-	  -ms-transition: all .25s ease-out;
-	   -o-transition: all .25s ease-out;
-	      transition: all .25s ease-out;
-}
-.nc-tooltip-wrp .nc-tooltip .dir {
-	position: absolute;
-	top: 0;
-    height: 100%;
-    color: #fff;
-}
-.nc-tooltip-wrp .nc-tooltip .dir i { font-size: 28px; }
-.nc-tooltip-wrp:hover .nc-tooltip { opacity: 1; pointer-events: auto; }
-
-/*----------  TOOLTIP RIGHT  ----------*/
-.nc-tooltip-wrp.r .nc-tooltip {
-	right: 110%;
-	-webkit-transform: translateX(10px);
-	 -moz-transform: translateX(10px);
-	  -ms-transform: translateX(10px);
-	   -o-transform: translateX(10px);
-	      transform: translateX(10px);
-}
-.nc-tooltip-wrp.r .nc-tooltip .dir { right: -8px; }
-.nc-tooltip-wrp.r:hover .nc-tooltip {
-	-webkit-transform: translateX(0px);
-	 -moz-transform: translateX(0px);
-	  -ms-transform: translateX(0px);
-	   -o-transform: translateX(0px);
-	      transform: translateX(0px);
-}
-
-
-/**
-*******************************************************************
 * NAVIGATION
 *******************************************************************
 */
@@ -490,7 +359,7 @@ hr.hr-1 {
 */
 
 .countdown-widget { text-align: center; }
-.countdown-widget .inner-dashboard { overflow: auto; display: inline-block; }
+.countdown-widget .inner-dashboard {  display: inline-block; }
 .countdown-widget .dash {
 	float: left;
 	border-right: 1px solid rgba(255,255,255,0.2);
@@ -498,7 +367,6 @@ hr.hr-1 {
 }
 .countdown-widget .dash:last-child { border-right: none; }
 .countdown-widget .inner-dash {
-	overflow: hidden;
 	height: 75%;
 	position: relative;
 	font-size: 50px;
@@ -528,9 +396,9 @@ hr.hr-1 {
 	border-radius: 5px;
 }
 .clock.clock-1 .countdown-widget .dash { padding: 0 18px; }
-.clock.clock-1 .countdown-widget .inner-dash { font-size: 36px; }
+.clock.clock-1 .countdown-widget .inner-dash { font-size: 100px; }
 .clock.clock-1 .countdown-widget .inner-dash > .digit { min-width: 26px; }
-.clock.clock-1 .countdown-widget .dash_title { color: rgba(255,255,255,0.7); font-size: 16px; }
+.clock.clock-1 .countdown-widget .dash_title { color: rgba(255,255,255,0.7); font-size: 26px; }
 
 /**
 *******************************************************************
@@ -564,7 +432,6 @@ hr.hr-1 {
 /*----------  INFO-BOX-1  ----------*/
 .info-box-1 {
 	padding: 60px 30px;
-	overflow: hidden;
 	position: relative;
 	background-color: rgba(255,255,255,0.5);
 	cursor: pointer;
@@ -662,7 +529,7 @@ hr.hr-1 {
 
 /*----------  TEAM-BOX-1  ----------*/
 .team-box-1 { position: relative; cursor: pointer; }
-.team-box-1 .image { position: relative; overflow: hidden; }
+.team-box-1 .image { position: relative;  }
 .team-box-1 .info {
 	border-bottom: 1px solid #b7b7b7;
 	padding: 20px;
@@ -838,7 +705,6 @@ hr.hr-1 {
 	width: 50%;
 	z-index: 0;
 	text-align: center;
-    overflow: hidden;
     -webkit-transition: all .25s ease-out;
 	 -moz-transition: all .25s ease-out;
 	  -ms-transition: all .25s ease-out;
@@ -944,4 +810,10 @@ hr.hr-1 {
             font-size: 130%;
             text-align: center;
             margin-bottom: 20%;
+}
+
+#logo{
+	position: fixed;
+	right: 20px;
+	top: 20px;
 }
