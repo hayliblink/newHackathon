@@ -1,23 +1,3 @@
-/**
-*****************************************************************
-* PROJECT : NC-Attract Coming-Soon Page
-* AUTHOR : NCodeArt
-*****************************************************************
-*/
-
-/**
-*****************************************************************
-* This file is licensed to NCodeArt. 
-* it's not allowed to copy or reuse it Copyright NCodeArt 2015
-*****************************************************************
-*/
-
-
-/**
-******************************************************************
-*	INTRODUCTION
-******************************************************************
-
 rw - Row
 cl - Column : Common for large devices;
 gt - Gutter
@@ -42,27 +22,18 @@ mxl-eq12 > cl 	= 12 grids >= 600
 msm-eq12 > cl 	= 12 grids >= 480
 mxs-eq12 > cl 	= 12 grids >= 320
 
-*****************************************************************/
- 
-
-
-/**
-******************************************************************
-*	LAYOUT STRUCTURE 
-******************************************************************
-*/
 
 ul.rw { list-style-type: none; padding: 0px; margin: 0px; }
 .rw { margin-right: 0px; margin-left: 0px; }
 .cfix,
-.rw:after, 
-.rw:before{ 
+.rw:after,
+.rw:before{
 	content: '';
 	display: table;
 	clear: both;
 	height: 0px;
 }
-.rw > [class*="cl"] { 
+.rw > [class*="cl"] {
 	float: left;
 	padding-right: 0px;
 	padding-left: 0px;
@@ -131,93 +102,93 @@ ul.rw { list-style-type: none; padding: 0px; margin: 0px; }
 .gt100 > [class*="cl"], .gt100 > [class*="col-"], .gt100 > [class*="flex-col-"] 	{ padding-right: 50px; padding-left: 50px; }
 
 /*----------  GRID BOTTOM MARGINE  ----------*/
-.mb0 > [class*="cl"], .mb0 > [class*="col-"], 
-.mb0 > [class*="flex-col-"] { 
-	margin-bottom: 0px;  
+.mb0 > [class*="cl"], .mb0 > [class*="col-"],
+.mb0 > [class*="flex-col-"] {
+	margin-bottom: 0px;
 }
-.mb1 > [class*="cl"], .mb1 > [class*="col-"], 
-.mb1 > [class*="flex-col-"] { 
-	margin-bottom: 1px;  
+.mb1 > [class*="cl"], .mb1 > [class*="col-"],
+.mb1 > [class*="flex-col-"] {
+	margin-bottom: 1px;
 }
-.mb2 > [class*="cl"], .mb2 > [class*="col-"], 
-.mb2 > [class*="flex-col-"] { 
-	margin-bottom: 2px;  
+.mb2 > [class*="cl"], .mb2 > [class*="col-"],
+.mb2 > [class*="flex-col-"] {
+	margin-bottom: 2px;
 }
-.mb4 > [class*="cl"], .mb4 > [class*="col-"], 
-.mb4 > [class*="flex-col-"] { 
-	margin-bottom: 4px;  
+.mb4 > [class*="cl"], .mb4 > [class*="col-"],
+.mb4 > [class*="flex-col-"] {
+	margin-bottom: 4px;
 }
-.mb10 > [class*="cl"], .mb10 > [class*="col-"], 
-.mb10 > [class*="flex-col-"] { 
-	margin-bottom: 10px; 
+.mb10 > [class*="cl"], .mb10 > [class*="col-"],
+.mb10 > [class*="flex-col-"] {
+	margin-bottom: 10px;
 }
-.mb12 > [class*="cl"], .mb12 > [class*="col-"], 
-.mb12 > [class*="flex-col-"] { 
-	margin-bottom: 12px; 
+.mb12 > [class*="cl"], .mb12 > [class*="col-"],
+.mb12 > [class*="flex-col-"] {
+	margin-bottom: 12px;
 }
-.mb14 > [class*="cl"], .mb14 > [class*="col-"], 
-.mb14 > [class*="flex-col-"] { 
-	margin-bottom: 14px; 
+.mb14 > [class*="cl"], .mb14 > [class*="col-"],
+.mb14 > [class*="flex-col-"] {
+	margin-bottom: 14px;
 }
-.mb16 > [class*="cl"], .mb16 > [class*="col-"], 
-.mb16 > [class*="flex-col-"] { 
-	margin-bottom: 16px; 
+.mb16 > [class*="cl"], .mb16 > [class*="col-"],
+.mb16 > [class*="flex-col-"] {
+	margin-bottom: 16px;
 }
-.mb18 > [class*="cl"], .mb18 > [class*="col-"], 
-.mb18 > [class*="flex-col-"] { 
-	margin-bottom: 18px; 
+.mb18 > [class*="cl"], .mb18 > [class*="col-"],
+.mb18 > [class*="flex-col-"] {
+	margin-bottom: 18px;
 }
-.mb20 > [class*="cl"], .mb20 > [class*="col-"], 
-.mb20 > [class*="flex-col-"] { 
-	margin-bottom: 20px; 
+.mb20 > [class*="cl"], .mb20 > [class*="col-"],
+.mb20 > [class*="flex-col-"] {
+	margin-bottom: 20px;
 }
-.mb22 > [class*="cl"], .mb22 > [class*="col-"], 
-.mb22 > [class*="flex-col-"] { 
-	margin-bottom: 22px; 
+.mb22 > [class*="cl"], .mb22 > [class*="col-"],
+.mb22 > [class*="flex-col-"] {
+	margin-bottom: 22px;
 }
-.mb24 > [class*="cl"], .mb24 > [class*="col-"], 
-.mb24 > [class*="flex-col-"] { 
-	margin-bottom: 24px; 
+.mb24 > [class*="cl"], .mb24 > [class*="col-"],
+.mb24 > [class*="flex-col-"] {
+	margin-bottom: 24px;
 }
-.mb26 > [class*="cl"], .mb26 > [class*="col-"], 
-.mb26 > [class*="flex-col-"] { 
-	margin-bottom: 26px; 
+.mb26 > [class*="cl"], .mb26 > [class*="col-"],
+.mb26 > [class*="flex-col-"] {
+	margin-bottom: 26px;
 }
-.mb28 > [class*="cl"], .mb28 > [class*="col-"], 
-.mb28 > [class*="flex-col-"] { 
-	margin-bottom: 28px; 
+.mb28 > [class*="cl"], .mb28 > [class*="col-"],
+.mb28 > [class*="flex-col-"] {
+	margin-bottom: 28px;
 }
-.mb30 > [class*="cl"], .mb30 > [class*="col-"], 
-.mb30 > [class*="flex-col-"] { 
-	margin-bottom: 30px; 
+.mb30 > [class*="cl"], .mb30 > [class*="col-"],
+.mb30 > [class*="flex-col-"] {
+	margin-bottom: 30px;
 }
-.mb40 > [class*="cl"], .mb40 > [class*="col-"], 
-.mb40 > [class*="flex-col-"] { 
-	margin-bottom: 40px; 
+.mb40 > [class*="cl"], .mb40 > [class*="col-"],
+.mb40 > [class*="flex-col-"] {
+	margin-bottom: 40px;
 }
-.mb50 > [class*="cl"], .mb50 > [class*="col-"], 
-.mb50 > [class*="flex-col-"] { 
-	margin-bottom: 50px; 
+.mb50 > [class*="cl"], .mb50 > [class*="col-"],
+.mb50 > [class*="flex-col-"] {
+	margin-bottom: 50px;
 }
-.mb60 > [class*="cl"], .mb60 > [class*="col-"], 
-.mb60 > [class*="flex-col-"] { 
-	margin-bottom: 60px; 
+.mb60 > [class*="cl"], .mb60 > [class*="col-"],
+.mb60 > [class*="flex-col-"] {
+	margin-bottom: 60px;
 }
-.mb70 > [class*="cl"], .mb70 > [class*="col-"], 
-.mb70 > [class*="flex-col-"] { 
-	margin-bottom: 70px; 
+.mb70 > [class*="cl"], .mb70 > [class*="col-"],
+.mb70 > [class*="flex-col-"] {
+	margin-bottom: 70px;
 }
-.mb80 > [class*="cl"], .mb80 > [class*="col-"], 
-.mb80 > [class*="flex-col-"] { 
-	margin-bottom: 80px; 
+.mb80 > [class*="cl"], .mb80 > [class*="col-"],
+.mb80 > [class*="flex-col-"] {
+	margin-bottom: 80px;
 }
-.mb90 > [class*="cl"], .mb90 > [class*="col-"], 
-.mb90 > [class*="flex-col-"] { 
-	margin-bottom: 90px; 
+.mb90 > [class*="cl"], .mb90 > [class*="col-"],
+.mb90 > [class*="flex-col-"] {
+	margin-bottom: 90px;
 }
-.mb100 > [class*="cl"], .mb100 > [class*="col-"], 
-.mb100 > [class*="flex-col-"] { 
-	margin-bottom: 100px; 
+.mb100 > [class*="cl"], .mb100 > [class*="col-"],
+.mb100 > [class*="flex-col-"] {
+	margin-bottom: 100px;
 }
 
 /*----------  GRID SYSTEM  ----------*/
