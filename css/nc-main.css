@@ -327,16 +327,13 @@ hr.hr-1 {
 */
 
 /*----------  NAVIGATION-1  ----------*/
-.navigatio-wrp-1 .navigation > li:first-child .navlink { border-top: 1px solid; }
-.navigatio-wrp-1 .navlink .icon { height: 80px; font-size: 26px; }
+.navigatio-wrp-1 .navlink .icon { height: 60px; font-size: 36px; }
 .navigatio-wrp-1 .navlink {
-	border-bottom: 1px solid;
 	position: relative;
 	color: #fff;
 }
 .navigatio-wrp-1 .navigation > li:first-child .navlink,
 .navigatio-wrp-1 .navlink {
-	border-color: rgba(0,0,0,0.1);
 }
 .navigatio-wrp-1 .navlink > .text {
 	display: none;
@@ -344,12 +341,9 @@ hr.hr-1 {
 	font-weight: 700;
     text-transform: uppercase;
 }
-.navigatio-wrp-1 .navlink:hover { background-color: rgba(0,0,0,0.1); color: #fff; }
-.navigatio-wrp-1 .navlink .nc-tooltip {
-	background: #fff;
-	color: #363636;
-	box-shadow: none;
-}
+.navigatio-wrp-1 .navlink:hover {    color: floralwhite;
+    border: 2px solid white ;}
+
 
 
 /**
