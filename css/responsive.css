@@ -7,8 +7,8 @@
 @media (min-width: 1700px) and (max-width: 1899px) {
 
 	.home-page .container { width: 88%; }
-		.contact-section-1 .contact-boxes-1 { margin-bottom: 64%; }
-		.image{
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 64%; }
+	.image{
 			top:13%;
 			left: 48%;
 		}
@@ -21,15 +21,10 @@
 	.home-page .container { width: 85%; }
 	.content-page .container { width: 90%; }
 
-	.text-animarion { width: 70%; left: 30%; }
-	.text-animarion .inner-wrp { width: 90%; }
 
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 85%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 64%; }
-
-
-
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 64%; }
 }
 @media (min-width: 1300px) and (max-width: 1499px) {
 
@@ -38,9 +33,6 @@
 	.home-page .container { width: 85%; }
 	.content-page .container { width: 90%; }
 
-	.text-animarion { width: 65%; left: 35%; }
-	.text-animarion .inner-wrp { width: 90%; }
-
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 85%; }
 
@@ -49,13 +41,10 @@
 	.home-page .container { width: 85%; }
 	.content-page .container { width: 90%; }
 
-	.text-animarion { width: 70%; left: 20%; }
-	.text-animarion .inner-wrp { width: 90%; }
-	.text-animarion .main-text { font-size: 80px; }
 
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 85%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 75%; }
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 75%; }
 
 
 }
@@ -66,26 +55,11 @@
 	.home-page .container { width: 90%; }
 	.content-page .container { width: 93%; }
 
-	.text-animarion { width: 65%; left: 20%; }
-	.text-animarion .inner-wrp { width: 90%; }
-
-	/*----------  HOME  ----------*/
-	.text-animarion .main-text { font-size: 70px; }
-
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .large-text { font-size: 22px; }
-	.about-section-1 .r-part,
-	.about-section-1 .l-part,
-	.about-section-2 .r-part,
-	.about-section-2 .l-part {
-		padding-right: 20px;
-    	padding-left: 20px;
-	}
 
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 90%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 77%; }
-				.image{
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 77%; }
+	.image{
 			top:14%;
 			left: 48%;
 		}
@@ -99,26 +73,10 @@
 	.home-page .container { width: 90%; }
 	.content-page .container { width: 95%; }
 
-	.text-animarion { width: 57%; left: 23%; }
-	.text-animarion .inner-wrp { width: 90%; }
-
-	/*----------  HOME  ----------*/
-	.text-animarion .main-text { font-size: 60px; }
-
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .large-text { font-size: 20px; }
-	.about-section-1 .r-part,
-	.about-section-1 .l-part,
-	.about-section-2 .r-part,
-	.about-section-2 .l-part {
-		padding-right: 20px;
-    	padding-left: 20px;
-	}
-
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 90%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 95%; }
-				.image{
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 95%; }
+	.image{
 			top:17%;
 			left: 48%;
 		}
@@ -141,7 +99,7 @@
 	.home-page.cm-item,
 	.contact-section-1 { overflow-y: scroll !important; }
 	.contact-section-1 .inner-wrpper .contact-info { width: 100%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 8%; }
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 8%; }
 
 	.contact-section-1 .map-wrapper {
 		position: inherit;
@@ -168,22 +126,9 @@
 	.clock.clock-1 .countdown-widget .inner-dash { font-size: 100px; }
 	.clock.clock-1 .countdown-widget .inner-dash > .digit { min-width: 20px; }
 
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .large-text { font-size: 20px; }
-	.about-section-1 .r-part,
-	.about-section-1 .l-part,
-	.about-section-2 .r-part,
-	.about-section-2 .l-part {
-		padding-right: 20px;
-    	padding-left: 20px;
-	}
-	.about-section-1 .r-part { margin-bottom: 40px; }
-	.about-section-2 .r-part { margin-bottom: 40px; }
-
-
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 90%; }
-		.image{
+	.image{
 			top:19%;
 			left: 48%;
 		}
@@ -211,15 +156,6 @@
 
 	.home-page-1 .clock.clock-1 { margin-bottom: 20px; }
 
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .r-part,
-	.about-section-1 .l-part,
-	.about-section-2 .r-part,
-	.about-section-2 .l-part {
-		padding-right: 20px;
-    	padding-left: 20px;
-	}
-
 	/*----------  CONTACT US  ----------*/
 		.contact-section-1 .contact-boxes-1 { margin-bottom: 40%; }
 
@@ -230,7 +166,7 @@
 	.content-page .container { width: 80%; }
 	.content-page > .inner-wrpper { padding: 0; }
 	.bt-menu-trigger {
-		width: 55px;
+			width: 55px;
     	height: 55px;
     	right: 22px;
 	}
@@ -248,20 +184,7 @@
 
 	.clock.clock-1 .countdown-widget .inner-dash { font-size: 80px; }
 	.clock.clock-1 .countdown-widget .inner-dash > .digit { min-width: 20px; }
-
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .image-wrapper { margin-bottom: 30px; }
-	.about-section-1 .large-text { font-size: 20px; }
-
-	.about-section-2 .image-wrapper { margin-bottom: 30px; }
-
-	/*----------  TEAM  ----------*/
-	.team-box-1 {
-		width: 70%;
-		margin: auto;
-		margin-bottom: 40px;
-	}
-		.image{
+	.image{
 			top:16%;
 			left: 48%;
 		}
@@ -274,8 +197,8 @@
 	.content-page > .inner-wrpper { padding: 0; }
 	.bt-menu-trigger {
 		width: 55px;
-    	height: 55px;
-    	right: 22px;
+    height: 55px;
+    right: 22px;
 	}
 	.bt-menu-trigger span {
 		left: 50%;
@@ -288,29 +211,12 @@
 	}
 
 	/*----------  HOME  ----------*/
-	.text-animarion { height: 200px; }
-	.text-animarion .main-text { font-size: 40px; }
 	.clock.clock-1 .countdown-widget .inner-dash { font-size: 60px; }
 	.clock.clock-1 .countdown-widget .inner-dash > .digit { min-width: 20px; }
 
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .image-wrapper { margin-bottom: 30px; }
-	.about-section-1 .large-text { font-size: 18px; }
-	.about-section-1 .list-1 > li { font-size: 14px; }
-
-	.about-section-2 .image-wrapper { margin-bottom: 30px; }
-
-	/*----------  TEAM  ----------*/
-	.team-box-1 {
-		width: 70%;
-		margin: auto;
-		margin-bottom: 40px;
-	}
-
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 90%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 55%; }
-
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 55%; }
 	.image{
 			top:16%;
 			left: 48%;
@@ -366,8 +272,6 @@
 	.content-page > .inner-wrpper { padding: 0; }
 
 	/*----------  HOME  ----------*/
-	.text-animarion { height: 200px; }
-	.text-animarion .main-text { font-size: 32px; }
 	.clock.clock-1 { padding: 0; padding-top: 4px; }
 	.clock.clock-1 .countdown-widget .dash { padding: 10px 15px; padding-bottom: 8px; }
 	.clock.clock-1 .countdown-widget .inner-dash { display: inline-block; font-size: 30px; }
@@ -378,28 +282,11 @@
 		font-size: 12px;
 	}
 
-	/*----------  ABOUT  ----------*/
-	.about-section-1 .image-wrapper { margin-bottom: 30px; }
-	.about-section-1 .large-text { font-size: 18px; }
-	.about-section-1 .list-wrp .list { width: 100%; float: inherit; }
-	.about-section-1 .list-1 > li { font-size: 14px; }
-
-	.about-section-2 .image-wrapper { margin-bottom: 30px; }
-
-	/*----------  TEAM  ----------*/
-	.team-box-1 {
-		width: 85%;
-		margin: auto;
-		margin-bottom: 40px;
-	}
-
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 90%; }
-			.contact-section-1 .contact-boxes-1 { margin-bottom: 70%; }
-				.image{
+	.contact-section-1 .contact-boxes-1 { margin-bottom: 70%; }
+	.image{
 			top:16%;
 			left: 48%;
 		}
-
-
 }

@@ -7,7 +7,7 @@
 		pageWrapperHeight();
 		mobileNav();
 	});
-	
+
 	$(window).resize(function() {
 		fullWidthHeight();
 		pageWrapperHeight();
@@ -43,11 +43,3 @@
 		}
 	}
 })(jQuery);
-
-
-
-
-
-
-
-

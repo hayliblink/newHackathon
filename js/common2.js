@@ -195,7 +195,6 @@ nc.common = function() {
 	}
 }
 
-/*----------  VIDEO BACKGRUND  ----------*/
 nc.videoBg = function (obj, imglist) {
 	'use strict';
 	var isMobile = {
@@ -312,48 +311,10 @@ nc.videoBg = function (obj, imglist) {
 
 		nc.common();
 
-		/*----------  BACKGROUND SLIDER  ----------*/
-		if (nc.elcheck("[data-bgslider]")) {
-			$("[data-bgslider]").each(function(index, el) {
-				var s1 = $(this).attr('data-bgslider');
-				var s2 = s1.split('|');
-				var bgslides = [];
-				$.each(s2, function(index, val) {
-					bgslides.push({ src: val });
-				});
-				var bgslideSetting = {
-					obj: this,
-					delay: 6000,
-					slides: bgslides,
-					animation: 'kenburns'
-				}
-				nc.bgSlider(bgslideSetting);
-			});
-		};
 
-		/*----------  KENBURN BACKGROUND SLIDER  ----------*/
-		if (nc.elcheck("[data-kbgslider]")) {
-			$("[data-kbgslider]").each(function(index, el) {
-				var s1 = $(this).attr('data-kbgslider');
-				var s2 = s1.split('|');
-				var bgslides = [];
-				$.each(s2, function(index, val) {
-					bgslides.push({ src: val });
-				});
-				$(this).vegas({
-					delay: 6000,
-					slides: bgslides,
-					animation: 'kenburns'
-				});
-			});
-		};
 
-		/*----------  VIDEO-BACKGROUND  ----------*/
-		if (nc.elcheck(".videobg")) {
-			$(".videobg").each(function(index, el) {
-				nc.videoBg(el);
-			});
-		};
+
+
 
 		/*----------  RESPONSIVE  ----------*/
 		$.mediaquery("bind", "mq-key", "(min-width: 992px)", {

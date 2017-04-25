@@ -16,8 +16,9 @@ body { background: #C6C5C5; height: 100%; }
 	min-height: 100%;
 	width: 100%;
 	-webkit-transition: width .6s;
-    transition: width .6s;
-    position: relative;
+  transition: width 1.6s;
+  position: relative;
+
 }
 .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden { height: 100%; }
 #page-wrapper.full { width: 100%; }
