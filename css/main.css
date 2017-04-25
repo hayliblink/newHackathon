@@ -88,49 +88,6 @@ img { max-width: 100%; }
 *****************************************************************
 */
 
-/*----------  H-TAG  ----------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.hd-1,
-.hd-2,
-.hd-3,
-.hd-4,
-.hd-5,
-.hd-6 {
-	margin: 0px;
-	color: rgb(203, 38, 132);
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-}
-h1,
-.hd-1 {
-	font-weight: 300;
-}
-h2,
-.hd-2 {
-	font-weight: 300;
-}
-h3,
-.hd-3 {
-	font-weight: 300;
-}
-h4,
-.hd-4 {
-	font-weight: 300;
-}
-h5,
-.hd-5 {
-	font-weight: 400;
-}
-h6,
-.hd-6 {
-	font-weight: 400;
-}
-
 /*----------  TITLE  ----------*/
 .title-wrp { margin-bottom: 60px; }
 .title .hd {
@@ -346,8 +303,20 @@ hr.hr-1 {
 *****************************************************************
 */
 
+/**
+***********Message de fin*********************
+*/
+
+#fin{
+	font-size: 1000%;
+	margin-left: 22%;
+}
+#message{
+	font-size: 200%;
+	margin-left: 22%;
+}
+
 .countdown-widget { text-align: center; }
-.countdown-widget .inner-dashboard {  display: inline-block; }
 .countdown-widget .dash {
 	float: left;
 	border-right: 2px solid rgba(255,255,255,0.2);

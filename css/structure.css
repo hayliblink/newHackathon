@@ -87,7 +87,7 @@ body { background: #C6C5C5; height: 100%; }
 	width: 100%;
 	height: 4px;
 	margin-top: -2px;
-	background-color: black;
+	background-color: white;
 	font-size: 0px;
 	border-radius: 8px;
 	-webkit-touch-callout: none;
@@ -106,7 +106,7 @@ body { background: #C6C5C5; height: 100%; }
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: white;
 	border-radius: 8px;
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s;
@@ -123,12 +123,12 @@ body { background: #C6C5C5; height: 100%; }
 .bt-menu-open .bt-menu-trigger span:before {
 	-webkit-transform: translateY(0) rotate(45deg);
 	transform: translateY(0) rotate(45deg);
-	background: #000;
+	background: white;
 }
 .bt-menu-open .bt-menu-trigger span:after {
 	-webkit-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
-	background: #000;
+	background: white;
 }
 .bt-menu ul {
 	position: fixed;
@@ -144,7 +144,7 @@ body { background: #C6C5C5; height: 100%; }
 .bt-menu ul li,
 .bt-menu ul li a {
 	display: block;
-	width: 150%;
+	width: 200%;
 	text-align: center;
 }
 .bt-menu ul li {

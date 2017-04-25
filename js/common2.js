@@ -78,16 +78,19 @@ nc.countdown = function (obj) {
 	var diffDays   = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
 	if ( d.getFullYear() == config.year && d.getMonth() == config.month -1 && d.getDate() >= config.day){
 		var countdownHtml = '<div class="inner-dashboard" style="overflow: hidden">';
-				countdownHtml += '<h1> Mon message trop cool </h1></div>'
+				countdownHtml += '<h1 id="fin">Fini !</h1>'
+				countdownHtml += '<p id= "message">L\'évènement Open Data à déjà eu lieu !<br/> Découvrez les équipes gagnantes </p></div>'
 	}
 	else if ( d.getFullYear() == config.year && d.getMonth() > config.month - 1){
 		var countdownHtml = '<div class="inner-dashboard" style="overflow: hidden">';
-				countdownHtml += '<h1> Mon message trop cool </h1></div>'
-	}
+		countdownHtml += '<h1 id="fin">Fini !</h1>'
+		countdownHtml += '<p id="message">L\'évènement Open Data à déjà eu lieu !<br/>Découvrez les équipes gagnantes </p></div>'
+ 	}
 
 	else if ( d.getFullYear() > config.year ){
 		var countdownHtml = '<div class="inner-dashboard" style="overflow: hidden">';
-				countdownHtml += '<h1> Mon message trop cool </h1></div>'
+		countdownHtml += '<h1 id="fin">Fini !</h1>'
+		countdownHtml += '<p id="message">L\'évènement Open Data à déjà eu lieu !<br/>Découvrez les équipes gagnantes </p></div>'
 	}
 	else{
 		var countdownHtml  = '<div class="inner-dashboard">';
