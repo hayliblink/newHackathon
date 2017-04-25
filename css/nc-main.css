@@ -4,8 +4,8 @@
 * FONTS
 *******************************************************************
 */
-.ff1 { font-family: 'Open Sans', sans-serif; }
-.ff2 { font-family: 'Orbitron', sans-serif; }
+.ff1 { font-family: 'Roboto';  }
+.ff2 { font-family: 'Roboto'; }
 
 /*----------  FONT ALLOCATION  ----------*/
 body,
@@ -14,13 +14,13 @@ body,
 .info-box-1 .info p,
 .about-section-1 .large-text,
 .subscribe-form-1 .msg-wrp {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto';
 }
 .countdown-widget .dash .digit,
 .clock-1 .countdown-widget .dash_title,
 .text-animarion .main-text,
 .title .hd {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto';
 }
 
 
@@ -111,7 +111,7 @@ h6,
 .hd-6 {
 	margin: 0px;
 	color: rgb(203, 38, 132);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto';
 	text-transform: uppercase;
 }
 h1,

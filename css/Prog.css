@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -37,7 +37,7 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
+    font-family: 'Roboto';
     font-size: inherit;
     line-height: inherit;
 }
@@ -143,7 +143,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: "Roboto";
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -559,7 +559,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-family: "Roboto";
 }
 
 code {
@@ -6052,7 +6052,7 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -6189,7 +6189,7 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6489,7 +6489,7 @@ button.close {
 .carousel-control .icon-prev {
     width: 20px;
     height: 20px;
-    font-family: serif;
+    font-family: "Roboto";
     line-height: 1;
 }
 
@@ -10665,7 +10665,7 @@ ul.rw {
 
 .sm-nav.sm-collapsible .caret:before {
     content: "\f067";
-    font-family: 'FontAwesome';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     text-rendering: auto;
@@ -10914,7 +10914,7 @@ ul.rw {
     height: 80px;
     border-radius: 50%;
     text-align: center;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 12px;
     font-weight: 600;
     line-height: 80px;
@@ -11256,7 +11256,7 @@ svg {
 }
 
 body {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     line-height: 1.5;
     color: #888;
@@ -12021,7 +12021,7 @@ textarea.form-control {
     min-height: 45px;
     border: 1px solid transparent;
     border-radius: 3px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
@@ -12232,7 +12232,7 @@ textarea.form-control {
     padding: 15px 26px 15px 64px;
     border-radius: 6px;
     text-align: left;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: "Roboto";
     font-size: 20px;
     line-height: 1.2;
     color: #fff;
@@ -13869,7 +13869,7 @@ h4,
 h5,
 h6,
 .tb-list {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
 }
 
 h1,
@@ -14488,15 +14488,15 @@ h6.bdr-b {
 }
 
 .f-1 {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
 }
 
 .f-2 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Roboto";
 }
 
 .f-3 {
-    font-family: 'Rancho',cursive;
+    font-family: 'Roboto',cursive;
 }
 
 .txt-white,
@@ -20479,7 +20479,7 @@ a,
     }
 
     .img-half img {html {
-    font-family: sans-serif;
+    font-family: "Roboto";
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -20601,7 +20601,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace,monospace;
+    font-family: "Roboto";
     font-size: 1em;
 }
 
@@ -20789,17 +20789,13 @@ th {
     }
 }
 
-@font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url(../lib/bootstrap/fonts/glyphicons-halflings-regular.eot);
-    src: url(../lib/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../lib/bootstrap/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../lib/bootstrap/fonts/glyphicons-halflings-regular.woff) format('woff'), url(../lib/bootstrap/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../lib/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
-}
+
 
 .glyphicon {
     display: inline-block;
     position: relative;
     top: 1px;
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -21875,7 +21871,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -21886,7 +21882,7 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
+    font-family: "Roboto";
     font-size: inherit;
     line-height: inherit;
 }
@@ -21992,7 +21988,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: "Roboto";
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -22408,7 +22404,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-family:"Roboto";
 }
 
 code {
@@ -27901,7 +27897,7 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -28038,7 +28034,7 @@ button.close {
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -28338,7 +28334,7 @@ button.close {
 .carousel-control .icon-prev {
     width: 20px;
     height: 20px;
-    font-family: serif;
+    font-family: "Roboto";
     line-height: 1;
 }
 
@@ -32514,7 +32510,7 @@ ul.rw {
 
 .sm-nav.sm-collapsible .caret:before {
     content: "\f067";
-    font-family: 'FontAwesome';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     text-rendering: auto;
@@ -32763,7 +32759,7 @@ ul.rw {
     height: 80px;
     border-radius: 50%;
     text-align: center;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 12px;
     font-weight: 600;
     line-height: 80px;
@@ -33105,7 +33101,7 @@ svg {
 }
 
 body {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     line-height: 1.5;
     color: #888;
@@ -33870,7 +33866,7 @@ textarea.form-control {
     min-height: 45px;
     border: 1px solid transparent;
     border-radius: 3px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
@@ -34081,7 +34077,7 @@ textarea.form-control {
     padding: 15px 26px 15px 64px;
     border-radius: 6px;
     text-align: left;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: "Roboto";
     font-size: 20px;
     line-height: 1.2;
     color: #fff;
@@ -35718,7 +35714,7 @@ h4,
 h5,
 h6,
 .tb-list {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto";
 }
 
 h1,
@@ -36337,15 +36333,15 @@ h6.bdr-b {
 }
 
 .f-1 {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Roboto",;
 }
 
 .f-2 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Roboto";
 }
 
 .f-3 {
-    font-family: 'Rancho',cursive;
+    font-family: 'Roboto';
 }
 
 .txt-white,
