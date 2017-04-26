@@ -7,16 +7,17 @@
             width: 100%;
             height: 100%;
             top: 0;
+            color: white;
             background-color: rgb(149, 27, 128);
             padding: 20%;
             text-align: center;
         }
         .titreprog h1{
-            font-size: 1000%;
+            font-size: 800%;
+            font-family: 'Roboto';
         }
         #button {
             width: 5%;
-            margin-top: 10%;
             margin-left: 48%;
         }
 
@@ -26,6 +27,10 @@
             display:none;
             transition: top 1s;
         }
+        #savoir{
+            font-size: 300%;
+            margin-top: 10%;
+        }
         #intro{
           display: none;
        }
@@ -33,9 +38,10 @@
 
     <div class="titreprog">
         <h1>PROGRAMME</h1>
-        <span> EN SAVOIR </span>
-        <img src="images/plus.png" id="button">
-
+        <div id="savoir">
+            <span >EN SAVOIR</span>
+            <img src="images/plus.png" id="button">
+        </div>
     </div>
     <div id="MonProg">
         <div id="retour" style="position: fixed; background: black;z-index:9999999999;">
@@ -43,8 +49,8 @@
         </div>
         <div class="nc-section--body align-c">
             <div class="flex-row popgallery-widget">
-                <div class="flex-col-md-6 flex-col-sm-6">
-                    <div class="hover-box1">
+                <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
+                    <div>
                         <img src="http://lorempixel.com/800/400">
                     </div>
                 </div>
@@ -53,15 +59,15 @@
                         <div class="overlay flex-cc typo-light">
                             <div class="content mr-30 z2">
                                 <h1>Jeudi 8 juin</h1>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     8h30 - Accueil et Lancement du Hackathon
                                 </h3>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     9H00 - Démarrage des projets
                                 </h3>
-                                <h1 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     23H00 - Interruption des projets
-                                </h1>
+                                </h3>
                             </div>
                             <b class="full-wh bg-dark1 op-00 z1"></b>
                         </div>
@@ -73,19 +79,19 @@
                         <div class="overlay flex-cc typo-light">
                             <div class="content mr-30 z2">
                                 <h1>Vendredi 9 juin</h1>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     8H30 - Reprise des projets
                                 </h3>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     15H - Répétition de la restitution des projets
                                 </h3>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     17H - Présentation des équipes devant un Jury officiel
                                 </h3>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     18H30 - Délibération du Jury et attribution des Prix
                                 </h3>
-                                <h3 class="title  bold-1 f-2">
+                                <h3 class=" f-2">
                                     19H - Verre de l’amitié
                                 </h3>
 
@@ -95,8 +101,8 @@
                         <img src="images/800x600_03.jpg">
                     </div>
                 </div>
-                <div class="flex-col-md-6 flex-col-sm-6">
-                    <div class="hover-box1">
+                <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
+                    <div>
                         <img src="http://lorempixel.com/800/450">
                     </div>
                 </div>

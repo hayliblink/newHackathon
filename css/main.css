@@ -87,6 +87,7 @@ img { max-width: 100%; }
 *	TYPOGRAPHY
 *****************************************************************
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*----------  TITLE  ----------*/
 .title-wrp { margin-bottom: 60px; }
@@ -428,7 +429,7 @@ hr.hr-1 {
 /*----------  CONTACT-SECTION-1  ----------*/
 .contact-section-1 { overflow: hidden; }
 .contact-section-1 .inner-wrpper { width: 100%; height: 100%;}
-.contact-section-1 .inner-wrpper .contact-info { width: 40%; margin-left: 0; }
+.contact-section-1 .inner-wrpper .contact-info { width: 40%; }
 .contact-section-1 .contact-info > .container { width: 100%; }
 .contact-section-1 .map-wrapper {
 	position: absolute;
