@@ -28,7 +28,7 @@ body { background: #C6C5C5; height: 100%; }
 	position: relative;
 }
 .ie #page-wrapper .content-outer-wrp { height: 100%; }
-#page-wrapper .content-inner-wrp { width: 100%; }
+#page-wrapper .content-inner-wrp { width: 100%;}
 
 /*----------  MENU  ----------*/
 .bt-menu-trigger span,
@@ -133,7 +133,7 @@ body { background: #C6C5C5; height: 100%; }
 .bt-menu ul {
 	position: fixed;
 	top: 92px;
-	left: 45%;
+	left: 40%;
 	margin: 0;
 	padding: 0;
 	width: 100px;

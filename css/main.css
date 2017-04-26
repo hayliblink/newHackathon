@@ -446,22 +446,16 @@ hr.hr-1 {
 */
 /*---------- INTRO----------------------*/
 
-	.image{
-    width: 5%;
-		position: absolute;
-		top:13%;
-		left: 48%;
-    z-index: 1;
-	}
 
 	.logowild{
     	width: 20%;
-			margin-right: 10%;
+			margin-left: 20%;
+			margin-bottom: 2%;
 	}
 
 	.logotoulouse{
     width: 20%;
-		margin-left: 10%;
+		margin-left: 20%;
 	}
 
 
@@ -471,8 +465,7 @@ hr.hr-1 {
     font-family: 'roboto';
     font-size: 130%;
     text-align: center;
-  	margin-bottom: 20%;
-}
+ }
 
 #logo{
 	position: fixed;
