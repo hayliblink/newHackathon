@@ -11,10 +11,12 @@
             padding: 20%;
             text-align: center;
         }
-        .titreprog h1{
+
+        .titreprog h1 {
             font-size: 800%;
             font-family: 'Roboto';
         }
+
         #button {
             width: 5%;
             margin-left: 48%;
@@ -23,23 +25,31 @@
         #MonProg {
             position: fixed;
             top: 100%;
-            display:none;
+            display: none;
             transition: top 1s;
         }
-        #savoir{
+
+        #savoir {
             font-size: 300%;
             margin-top: 10%;
             font-family: 'Roboto' !important;
         }
-        #intro{
-          display: none;
-       }
+
+        #intro {
+            display: none;
+        }
+        #fleche{
+            display: none;
+        }
+        #social{
+            display: none;
+        }
     </style>
 
     <div class="titreprog">
         <h1>PROGRAMME</h1>
         <div id="savoir">
-            <span >EN SAVOIR</span>
+            <span>EN SAVOIR</span>
             <img src="images/plus.png" id="button">
         </div>
     </div>
@@ -51,7 +61,7 @@
             <div class="flex-row popgallery-widget">
                 <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
                     <div>
-                        <img src="http://lorempixel.com/800/400">
+                        <img src="images/prog400.jpg">
                     </div>
                 </div>
                 <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
@@ -71,7 +81,7 @@
                             </div>
                             <b class="full-wh bg-dark1 op-00 z1"></b>
                         </div>
-                        <img src="images/800x600_02.jpg">
+                        <img src="images/jeudi8juin.jpg">
                     </div>
                 </div>
                 <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
@@ -98,12 +108,12 @@
                             </div>
                             <b class="full-wh bg-dark1 op-00 z1"></b>
                         </div>
-                        <img src="images/800x600_03.jpg">
+                        <img src="images/vendredi9juin.jpg">
                     </div>
                 </div>
                 <div class="flex-col-md-6 flex-col-sm-6 flex-col-lg-6">
                     <div>
-                        <img src="http://lorempixel.com/800/450">
+                        <img src="images/prog450.jpg">
                     </div>
                 </div>
             </div>
@@ -117,9 +127,11 @@
             Prog.style.top = "100%";
             btn.addEventListener("click", AffProg);
             retour.addEventListener("click", Retour);
+
             function Retour() {
                 Prog.style.top = "100%";
             }
+
             function AffProg() {
                 Prog.style.display = "block";
                 Prog.style.top = "0%";

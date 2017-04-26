@@ -11,7 +11,7 @@
 }
 
 .title{
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto';
     color: white;
     padding: 2%;
 }
@@ -19,7 +19,7 @@
 .txtgauche{
     color: white;
     align: left;
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto';
     margin-top: 3%;
     margin-left: 25%;
     text-align: left !important
@@ -29,7 +29,7 @@
 .txtdroite{
     color: white;
     float: right;
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto';
     margin-top: 3%;
     margin-right: 20%;
     display: inline;
@@ -42,7 +42,7 @@ font-size: 18px;
 
 p{
     color: white;
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto';
     font-size: 110%;
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Wild Code SCHOOL">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lib/themify-icons/themify-icons.css">
+
     <title>Hackathon Open Data</title>
 
 
@@ -43,7 +46,7 @@
         <nav id="bt-menu" class="bt-menu navigation-wrp navigatio-wrp-1">
 
             <!-- MENU-BUTTON -->
-            <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+            <a id="btn" href="#" class="bt-menu-trigger"><span>Menu</span></a>
 
             <!-- MENU-LINKS -->
             <ul class="navigation">
@@ -62,45 +65,52 @@
                         <span class="icon flex-cc">PROGRAMME </span>
                     </a>
                 </li>
-                  <li>
+                <li>
                     <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/organisateur.html">
-                        <span class="icon flex-cc">ORGANISATEUR</span>
-
-                    </a>
-                </li>
-                  <li>
-                    <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/partenaire.html">
-                        <span class="icon flex-cc">PARTENAIRE</span>
+                        <span class="icon flex-cc">ORGANISATEURS</span>
 
                     </a>
                 </li>
                 <li>
-                  <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/Presse.html">
-                      <span class="icon flex-cc"> ESPACE PRESSE </span>
-                  </a>
-              </li>
-              <li>
-                <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/contact.html">
-                    <span class="icon flex-cc">LIEU</span>
-                </a>
-            </li>
+                    <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/partenaire.html">
+                        <span class="icon flex-cc">PARTENAIRES</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/Presse.html">
+                        <span class="icon flex-cc"> ESPACE PRESSE </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="navlink nc-tooltip-wrp r" href="#" data-page="pages/contact.html">
+                        <span class="icon flex-cc">LIEU</span>
+                    </a>
+                </li>
             </ul>
             <!-- / MENU-LINKS -->
 
         </nav>
         <!-- / NAVIGATION -->
         <!-- PAGE-WRAPPER -->
-        <div id="page-wrapper" class="active-home">
+        <div id="page-wrapper" class="active-home" style="overflow-x: hidden;">
             <div class="content-outer-wrp flex-cc">
                 <div class="content-inner-wrp">
                     <img id="logo" src="images/hackathon.png" alt="" width="30%">
+                    <!-- SOCIAL-LINKS -->
+                    <div id="social" class="social-links social-links-1" style="margin-left: 45%;">
+                        <div class="inner-wrapper">
+                            <a target="_blank" itemprop="sameAs" href="https://www.facebook.com/" class="link flex-cc facebook"><span class="icon ti-facebook"></span></a>
+                            <a target="_blank" itemprop="sameAs" href="https://twitter.com/" class="link flex-cc twitter"><span class="icon ti-twitter-alt"></span></a>
+                        </div>
+                    </div><!-- / SOCIAL-LINKS -->
                     <!-- HOME PAGE -->
                     <div class="home-page home-page-1">
-                        <div class="container">
+                        <div class="container" style="margin-left: 20%;">
                             <!-- CLOCK -->
                             <div class="clock clock-1 animated s0-8 delay-0-1s" data-animOut="fadeOutUp" data-animIn="fadeInUp">
                                 <div class="countdown-widget">
-                                    <div  id="years" data-day="7" data-month="6" data-year="2017" data-hr="00" data-min="0" data-sec="0"></div>
+                                    <div id="years" data-day="7" data-month="6" data-year="2017" data-hr="00" data-min="0" data-sec="0"></div>
                                 </div>
                             </div>
                             <!-- / CLOCK -->
@@ -109,17 +119,20 @@
                     <!-- / HOME PAGE -->
 
                     <!-- PAGES -->
-                    <div id="pages"  style="background: white; width:100%">
+                    <div id="pages" style="background: white; width:100%">
 
                     </div>
                     <!-- / PAGES -->
 
+
+                </div>
+                <div id="fleche" style="position: fixed; bottom: 5%; left: 46%;">
+                    <a href="#intro"><img src="images/fleche.png" alt="" width="20%"></a>
                 </div>
             </div>
             <div id="intro" class="content-page presentation" style="background: white; height: 110%;">
-               <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+                <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
                 <div class="inner-wrpper">
-                    <div style="background: orange; width: 50px; height: 50px; margin-left: 25px;"></div>
                     <div class="container marginmaps">
                         <div class="row">
                             <div class="photos">
@@ -127,7 +140,9 @@
                                 <img class="logotoulouse" src="images/LogoTM.png" alt="ToulouseMetropole">
                             </div>
                             <div class="col-xs-12 textpresentation">
-                                </br>La <B>Wild Code School Toulouse</B> en partenariat avec<B>Toulouse Métropole</B> </br>
+                                </br>La
+                                <B>Wild Code School Toulouse</B> en partenariat avec
+                                <B>Toulouse Métropole</B> </br>
                                 lance un Hackathon inédit sur l’Open Data et la Smart City.</br>Plusieurs équipes constituées de développeurs créatifs et ambitieux de</br>
                                 la Wild Code School se donneront 24H pour penser et bâtir la ville</br>
                                 intelligente de demain au travers d’applications mobiles répondant</br>
@@ -142,27 +157,27 @@
                                 </br>
                                 </br>
                                 <div class="ensavoir">
-                                <p> EN SAVOIR </p>
-                                <a id="plus" data-page="pages/Enjeux.html">
-                                    <img  class="plus" src="images/plus.png" alt="plus" width="10%">
-                                </a>
-                               </div>
+                                    <p> EN SAVOIR </p>
+                                    <a id="plus" data-page="pages/Enjeux.html">
+                                        <img id="introplus" src="images/plus.png" alt="plus">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        <!-- / PAGE-WRAPPER -->
-    </div>
-    <!-- / MAIN-WRAPPER -->
+            <!-- / PAGE-WRAPPER -->
+        </div>
+        <!-- / MAIN-WRAPPER -->
 
-    <!-- CORE SCRIPT -->
-    <script src="lib/jquery/jquery-1.11.3.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/borderMenu.js"></script>
-    <script src="js/Compteur.js"></script>
-    <script src="js/common2.js"></script>
+        <!-- CORE SCRIPT -->
+        <script src="lib/jquery/jquery-1.11.3.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/borderMenu.js"></script>
+        <script src="js/Compteur.js"></script>
+        <script src="js/common2.js"></script>
 
 </body>
 
