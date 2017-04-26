@@ -13,7 +13,6 @@
 .title{
     font-family: 'Roboto'sans-serif;
     color: white;
-    text-align: center;
     padding: 2%;
 }
 
@@ -23,6 +22,7 @@
     font-family: 'Roboto'sans-serif;
     margin-top: 3%;
     margin-left: 25%;
+    text-align: left !important
     display: inline-block;
 }
 
@@ -43,7 +43,7 @@ font-size: 18px;
 p{
     color: white;
     font-family: 'Roboto'sans-serif;
-    font-size: 16px;
+    font-size: 110%;
 }
 
 
