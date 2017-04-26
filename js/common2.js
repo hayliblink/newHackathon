@@ -383,6 +383,10 @@ nc.videoBg = function (obj, imglist) {
 
 
 
+		/*------------ MENU CHANGE -----------*/
+
+		
+
 
 		/*----------  RESPONSIVE  ----------*/
 		$.mediaquery("bind", "mq-key", "(min-width: 992px)", {
