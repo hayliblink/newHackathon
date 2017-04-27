@@ -406,6 +406,7 @@ nc.videoBg = function(obj, imglist) {
     /*------------ MENU CHANGE -----------*/
     setInterval(function(){
         var btn = document.getElementById("btn");
+
         if(document.getElementById("page-wrapper").scrollTop >= 723){
             btn.style.backgroundColor = "rgb(203, 38, 132)";
         }
@@ -415,3 +416,14 @@ nc.videoBg = function(obj, imglist) {
 
 
     }, 150);
+
+    setInterval(function(){
+        var fleche = document.getElementById("fleche");
+        fleche.style.transition = "2s opacity";
+        if(fleche.style.opacity == "0"){
+            fleche.style.opacity = "1";
+        }
+        else{
+            fleche.style.opacity = "0";
+        }
+    }, 1000)
