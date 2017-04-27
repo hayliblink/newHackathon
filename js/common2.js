@@ -407,7 +407,7 @@ nc.videoBg = function(obj, imglist) {
     setInterval(function(){
         var btn = document.getElementById("btn");
 
-        if(document.getElementById("page-wrapper").scrollTop >= 723){
+        if(document.getElementById("page-wrapper").scrollTop >= 630){
             btn.style.backgroundColor = "rgb(203, 38, 132)";
         }
         else {

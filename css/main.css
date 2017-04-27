@@ -100,7 +100,6 @@ img {
 
 .content-page>.inner-wrpper {
     width: 100%;
-    padding: 100px 0
 }
 
 .content-page .container {
@@ -620,13 +619,14 @@ hr.hr-1 {
 /*---------- INTRO----------------------*/
 
 .logowild {
+    margin-top: 5%;
     width: 20%;
     margin-bottom: 3%;
 }
 
 .logotoulouse {
     width: 20%;
-    margin-top: 1%;
+    margin-top: 6%;
     margin-bottom: 4%;
 }
 

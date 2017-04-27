@@ -17,8 +17,8 @@
 
 	#page-wrapper { width: 100%; }
 	#page-wrapper.full { width: 100%; }
-	.home-page .container { width: 85%; }
-	.content-page .container { width: 90%; }
+	.home-page .container { width: 100%; }
+	.content-page .container { width: 100%; }
 
 
 	/*----------  CONTACT US  ----------*/
@@ -29,16 +29,16 @@
 
 	#page-wrapper { width: 100%; }
 	#page-wrapper.full { width: 100%; }
-	.home-page .container { width: 85%; }
-	.content-page .container { width: 90%; }
+	.home-page .container { width: 100%; }
+	.content-page .container { width: 100%; }
 
 	/*----------  CONTACT US  ----------*/
 	.contact-section-1 .contact-info > .container { width: 85%; }
 
 	#page-wrapper { width: 100%; }
 	#page-wrapper.full { width: 100%; }
-	.home-page .container { width: 85%; }
-	.content-page .container { width: 90%; }
+	.home-page .container { width: 100%; }
+	.content-page .container { width: 100%; }
 
 
 	/*----------  CONTACT US  ----------*/
@@ -51,8 +51,8 @@
 
 	#page-wrapper { width: 100%; }
 	#page-wrapper.full { width: 100%; }
-	.home-page .container { width: 90%; }
-	.content-page .container { width: 93%; }
+	.home-page .container { width: 100%; }
+	.content-page .container { width: 100%; }
 
 
 	/*----------  CONTACT US  ----------*/
