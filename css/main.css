@@ -645,6 +645,8 @@ hr.hr-1 {
     top: 20px;
 }
 #introplus{
+    position: absolute;
+    margin-left: -1%;
     width: 2%;
 }
 #introplus:hover {
